@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 
+
 public class Character{
     private int hp;
     private int mp;
