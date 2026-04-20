@@ -7,7 +7,7 @@ public class Arena {
         Weapon axe = new Weapon (3, 0);
         Armor basicArmor = new Armor(3, 2);
         Character contender1 = new SampleCharacter(sword, basicArmor, "John");
-        Character contender2 = new SampleCharacter(axe, basicArmor, "Bob");
+        Character contender2 = new RandomEnemy(axe, basicArmor, "Bob");
 
         if(contender1.getSpeed() >= contender2.getSpeed()){
             p1 = contender1;
